@@ -1,0 +1,5 @@
+use DATABASE_NAME
+DROP TABLE IF EXISTS TABLE_NAME_temp;
+ALTER TABLE TABLE_NAME RENAME TO TABLE_NAME_temp;
+source C:\wamp64\bin\mysql\mysql5.7.31\bin\tempsql\FILE_NAME.sql
+exit
